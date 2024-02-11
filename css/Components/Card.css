@@ -1,0 +1,34 @@
+.Cards{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+
+
+.Card{
+  padding: 20PX;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0PX 10PX 30PX rgba(0, 0, 0, 0.2); 
+  border-radius: 6PX;
+  margin: 20PX 0PX;
+  flex-basis: 250PX;
+  flex-grow: 1;
+
+}
+
+.Card img{
+  width: 150PX;
+  border-radius: 6PX;
+
+}
+
+.Card h3{
+  flex-grow: 1;
+  padding-left: 20PX;
+  font-size: 18PX;
+
+}
